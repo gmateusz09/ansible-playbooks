@@ -27,7 +27,6 @@
                sudo modprobe overlay
                sudo modprobe br_netfilter
 
-
      - name: Set system configurations for Kubernetes networking
        file:
          path: "/etc/sysctl.d/99-kubernetes-cri.conf"

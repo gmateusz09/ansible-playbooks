@@ -12,7 +12,7 @@
 
      - name: Remove old Docker
        shell: |
-               sudo apt-get remove -y docker docker-engine docker.io containerd runc
+               sudo apt-get remove -y docker docker.io containerd runc
 
      - name: Install Docker
        shell: |
